@@ -2,3 +2,13 @@
     font-family: "Castoro";
     src: '../fonts/Castoro/Castoro-Regular.ttf';
 }
+
+@font-face{
+    font-family: "Montserrat";
+    src: '../fonts/Monstserrat/Montserrat-Regular.ttf';
+}
+
+@font-face{
+    font-family: "NotoSansTC";
+    src: '../fonts/NotoSansTC/NotoSansTC-Regular.otf';
+}
