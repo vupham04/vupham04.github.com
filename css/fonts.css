@@ -1,14 +1,14 @@
 @font-face{
     font-family: "Castoro";
-    src: '../fonts/Castoro/Castoro-Regular.ttf';
-}
-
-@font-face{
-    font-family: "Montserrat";
-    src: '../fonts/Monstserrat/Montserrat-Regular.ttf';
+    src: url(../fonts/Castoro/Castoro-Regular.ttf) format("opentype");
 }
 
 @font-face{
     font-family: "NotoSansTC";
-    src: '../fonts/NotoSansTC/NotoSansTC-Regular.otf';
+    src: url(../fonts/NotoSansTC/NotoSansTC-Regular.otf) format("opentype");
+}
+
+@font-face{
+    font-family: "ArchitectsDaughter";
+    src: url(../fonts/ArchitectsDaughter/ArchitectsDaughter-Regular.otf) format("opentype");
 }
