@@ -100,3 +100,38 @@
 }
 
 /* End about area */
+
+/* Footer area */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/30px var(--castoro);
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--text-color); 
+}
+
+footer.footer-area .social #linkedin:hover{
+    color: #2867B2;
+}
+
+footer.footer-area .social #github:hover{
+    color: #333;
+}
+
+footer.footer-area .social #freecodecamp:hover{
+    color: black;
+}
+
+footer.footer-area .social #hackerrank:hover{
+    color: green;
+}
+
+/* End footer area */
