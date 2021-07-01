@@ -19,16 +19,16 @@ $(document).ready(function () {
 
     navbarFixed();
 
-    // fix click on navbar, and content is hidden under navbar
-    $('.nav-link-with-redirect-inpage').click(function(e){
-        let divCoords = $(e.target.hash).offset();
-        let height = $('header').height();
-        e.preventDefault();
-        window.scrollTo({
-            left: divCoords.left, 
-            top: divCoords.top - height,
-            behavior: 'smooth'
-        });
-    });
+    // // fix click on navbar, and content is hidden under navbar
+    // $('.nav-link-with-redirect-inpage').click(function(e){
+    //     let divCoords = $(e.target.hash).offset();
+    //     let height = $('header').height();
+    //     e.preventDefault();
+    //     window.scrollTo({
+    //         left: divCoords.left, 
+    //         top: divCoords.top - height,
+    //         behavior: 'smooth'
+    //     });
+    // });
 
 });
