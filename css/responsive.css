@@ -1,5 +1,5 @@
-/* viewport smaller or equal to 400px */
-@media only screen and (max-width: 400px){
+/* viewport smaller or equal to 442px */
+@media only screen and (max-width: 442px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand{
         margin: 0%;
