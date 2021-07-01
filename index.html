@@ -52,7 +52,7 @@
                                 <a class="nav-link" href="#">projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">contact</a>
+                                <a class="nav-link" href="contact.html">contact</a>
                             </li>
                         </ul>
                     </div>
@@ -81,8 +81,10 @@
 
                         <div class="side-buttons">
                             <div class="d-flex flex-row flex-wrap">
+                                <a href="contact.html">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
+                                </a>
                                 <a href="files/Vu Pham - Resume.pdf" target="_blank">
                                     <button type="button" class="btn button secondary-button text-uppercase">get
                                         resumé</button>
@@ -145,29 +147,8 @@
     </main>
     <!-- ==== END MAIN AREA =====-->
 
-    <footer class="footer-area">
-        <div class="container">
-
-            <div class="site-logo text-center py-4">
-                <a href="#"><img src="img/logo.png" alt="logo"></a>
-            </div>
-
-            <div class="social text-center">
-                <h5 class="text-uppercase">Follow me</h5>
-                <a href="https://linkedin.com/in/percypham/"><i id="linkedin" class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/vupham04"><i id="github" class="fab fa-github"></i></a>
-                <a href="https://www.freecodecamp.org/percypham04"><i id="freecodecamp" class="fab fa-free-code-camp"></i></a>
-                <a href="https://www.hackerrank.com/percy_pham"><i id="hackerrank" class="fab fa-hackerrank"></i></a>
-            </div>
-
-            <div class="copyrights text-center">
-                <p class="para">
-                    Copyright ©2021 All rights reserved
-                </p>
-            </div>
-
-        </div>
-    </footer>
+    <!-- ==== ADD FOOTER ==== -->
+    <div id="footer"></div>
 
     <!-- jquery file -->
     <script src="js/jquery.3.6.0.js"></script>
@@ -178,6 +159,13 @@
 
     <!--  custom js file  -->
     <script src="js/main.js"></script>
+
+    <!-- to load similar footer and header to all pages -->
+    <script> 
+        $(function(){
+          $("#footer").load("pages/footer.html"); 
+        });
+    </script> 
 
 </body>
 
