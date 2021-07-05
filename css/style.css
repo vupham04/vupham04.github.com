@@ -137,9 +137,9 @@ footer.footer-area .social #hackerrank:hover{
 /* End footer area */
 
 /* CONTACT PAGE */
-.contact-main .contact .row{
+.contact-main .contact .row.contact-row{
     margin-left: 9rem;
-    padding-top: 4rem;
+    padding-top: 8rem;
     padding-bottom: 7rem;
     font-family: var(--castoro)
 }
@@ -147,4 +147,25 @@ footer.footer-area .social #hackerrank:hover{
 .contact-main .contact .contact-img{
     width: 70%;
     height: auto;
+}
+
+.contact-main .contact .row .contact-me-at{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.contact-main .contact .row .contact-icon{
+    font-size: 30px;
+}
+
+.contact-main .contact .row .contact-eachline{
+    line-height: 60px;
+}
+
+.contact-main .contact .row .contact-info{
+    padding: 13px;
+}
+
+.contact-main .contact .row .contact-info a{
+    color: black;
 }
