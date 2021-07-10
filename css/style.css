@@ -138,7 +138,7 @@ footer.footer-area .social #hackerrank:hover{
 
 /* CONTACT PAGE */
 .contact-main .contact .row.contact-row{
-    margin-left: 9rem;
+    padding-left: 9rem;
     padding-top: 8rem;
     padding-bottom: 7rem;
     font-family: var(--castoro)
