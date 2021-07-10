@@ -39,6 +39,15 @@
     footer.footer-area .social a > i {
         padding: 1rem;
     }
+
+    .site-main .site-banner .banner-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .site-main .about-area{
+        padding: 0 0;
+    }
 }
 
 /* viewport smaller or equal to  800px*/ 
@@ -70,6 +79,10 @@
     .site-main .site-banner .banner-image > img {
         padding-top: 10rem;
         padding-bottom: 10rem;
+    }
+
+    .site-main .about-area{
+        padding: 8rem 1rem;
     }
 
 }
